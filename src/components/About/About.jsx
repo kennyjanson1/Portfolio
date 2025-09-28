@@ -68,7 +68,7 @@ const About = () => {
                 href="#contact"
                 className="inline-block py-3 px-8 rounded-full text-lg font-bold border transition duration-300 transform hover:scale-105"
                 style={{
-                  color: "white", // teks ungu solid
+                  color: "#8245ec", // teks ungu solid
                   borderColor: "#8245ec",
                 }}
               >
@@ -79,7 +79,7 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[25rem] md:h-[25rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
@@ -89,7 +89,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Kenny Janson"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
